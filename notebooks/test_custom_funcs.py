@@ -31,6 +31,7 @@ def test_replace_dashes_with_canonical_letters():
     assert '.' not in df
     assert 'X' not in df
 
+
 def test_read_consensus():
     assert len(prot_consensus) == 99
     assert len(nnrt_consensus) == len(nrt_consensus)
