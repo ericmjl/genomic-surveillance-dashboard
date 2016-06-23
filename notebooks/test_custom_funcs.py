@@ -5,6 +5,10 @@ data_prot, prot_drug_cols, prot_feat_cols = cf.read_data('protease')
 data_nnrt, nnrt_drug_cols, nnrt_feat_cols = cf.read_data('nnrt')
 data_nrt, nrt_drug_cols, nrt_feat_cols = cf.read_data('nrt')
 
+prot_consensus = cf.read_consensus('protease')
+nnrt_consensus = cf.read_consensus('nnrt')
+nrt_consensus = cf.read_consensus('nrt')
+
 
 def test_read_data():
     assert data_prot.shape == (1808, 107)
@@ -19,17 +23,16 @@ def test_replace_ambiguous_letters_with_nan():
 
 
 def test_replace_dashes_with_canonical_letters():
-    """
-    TODO.
-    """
-    pass
+    df = cf.replace_dashes_with_canonical_letters(data_prot,
+                                                  prot_consensus,
+                                                  prot_feat_cols)
 
+    assert '-' not in df
+    assert '.' not in df
+    assert 'X' not in df
 
 def test_read_consensus():
-    protease_consensus = cf.read_consensus('protease')
-    nnrt_consensus = cf.read_consensus('nnrt')
-    nrt_consensus = cf.read_consensus('nrt')
-    assert len(protease_consensus) == 99
+    assert len(prot_consensus) == 99
     assert len(nnrt_consensus) == len(nrt_consensus)
 
     with pytest.raises(AssertionError):
