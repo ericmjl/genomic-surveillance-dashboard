@@ -1,7 +1,25 @@
 import numpy as np
 import pandas as pd
-from Bio.SeqRecord import SeqRecord
 from Bio import SeqIO
+
+
+def read_data(protein):
+    """
+    Reads in the data for the protein.
+    """
+    drug_col_vals = {'protease': 8,
+                     'nnrt': 4,
+                     'nrt': 6}
+
+    assert protein in drug_col_vals.keys()
+
+    data = pd.read_csv('../data/hiv-{0}-data.csv'.format(protein),
+                       index_col='SeqID')
+
+    drug_cols = data.columns[0:drug_col_vals[protein]]
+    feat_cols = data.columns[drug_col_vals[protein]:]
+
+    return data, drug_cols, feat_cols
 
 
 def replace_ambiguous_letters_with_nan(df, feat_cols):
@@ -35,11 +53,7 @@ def replace_ambiguous_letters_with_nan(df, feat_cols):
 def replace_dashes_with_canonical_letters(df, consensus_map, feat_cols):
     """
     Replaces all the dashes with the canonical letter for that string.
-    """
-    assert isinstance(df, pd.DataFrame)
-    assert isinstance(consensus_map, dict)
 
-    """
     Cleans the data by:
     - imputing consensus amino acids into the sequence.
     - removing sequences with early stop codons.
@@ -58,10 +72,15 @@ def replace_dashes_with_canonical_letters(df, consensus_map, feat_cols):
     - data: (pandas DataFrame) the cleaned sequence feature matrix with drug
             resistance metadata.
     """
+
+    # Defensive programming checks
+    assert isinstance(df, pd.DataFrame)
+    assert isinstance(consensus_map, dict)
+
     # Impute consensus sequence
     for i, col in enumerate(feat_cols):
         # Replace '-' with the consensus letter.
-        df[col] = df[col].replace({'-': consensus_map[i+1]})
+        df[col] = df[col].replace({'-': consensus_map[i]})
 
     df = df.replace({'X': np.nan})
     df = df.replace({'.': np.nan})
@@ -69,10 +88,20 @@ def replace_dashes_with_canonical_letters(df, consensus_map, feat_cols):
     return df
 
 
-def read_consensus(handle):
+def read_consensus(protein_name):
     """
     Reads in the consensus sequence, makes a map of position to letter.
     """
+
+    # Defensive programming checks.
+    allowed_names = ['protease', 'nnrt', 'nrt']
+    assert protein_name in allowed_names,\
+        "protein_name must be in {0}".format(allowed_names)
+
+    if protein_name == 'protease':
+        handle = '../data/hiv-protease-consensus.fasta'
+    elif protein_name in ['nnrt', 'nrt']:
+        handle = '../data/hiv-rt-consensus.fasta'
     consensus = SeqIO.read(handle, 'fasta')
     consensus_map = {i: letter for i, letter in enumerate(str(consensus.seq))}
 
@@ -90,3 +119,20 @@ def drop_na_from_data(df, drug_name, feat_cols):
     columns.append(drug_name)
 
     return df[columns].dropna()
+
+
+def get_cleaned_data(protein_name, drug_name):
+    """
+    A composition of the above functions. Expresses the "business logic"
+    behind the data preprocessing steps.
+    """
+    data, drug_cols, feat_cols = read_data(protein_name)
+    consensus_map = read_consensus(protein_name)
+    data = replace_ambiguous_letters_with_nan(data, feat_cols)
+    data = replace_dashes_with_canonical_letters(data,
+                                                 consensus_map,
+                                                 feat_cols)
+
+    data = drop_na_from_data(data, drug_name, feat_cols)
+
+    return data
