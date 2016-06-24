@@ -135,7 +135,9 @@ def get_cleaned_data(protein_name, drug_name):
 
     data = drop_na_from_data(data, drug_name, feat_cols)
 
-    return data
+    return data, feat_cols
+
+
 def test_data_integrity(data):
     """
     Data integrity tests! Make sure to use this to check that the data are
