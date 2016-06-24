@@ -136,3 +136,19 @@ def get_cleaned_data(protein_name, drug_name):
     data = drop_na_from_data(data, drug_name, feat_cols)
 
     return data
+def test_data_integrity(data):
+    """
+    Data integrity tests! Make sure to use this to check that the data are
+    suitable for input into scikit-learn.
+    """
+    assert '-' not in data
+    assert '.' not in data
+    assert 'X' not in data
+    assert not data.dropna().isnull().values.any()
+
+
+def replace_amino_acids_with_pkas(data, feat_cols):
+    """
+    
+    """
+    
