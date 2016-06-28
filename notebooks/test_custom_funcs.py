@@ -49,5 +49,6 @@ def test_drop_na_from_data():
 
 
 def test_get_cleaned_data():
-    df = cf.get_cleaned_data('protease', 'FPV')
+    df, feat_cols = cf.get_cleaned_data('protease', 'FPV')
     assert df.shape == (726, 100)
+    assert len(feat_cols) == 99
