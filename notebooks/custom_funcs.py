@@ -1,6 +1,14 @@
 import numpy as np
 import pandas as pd
 from Bio import SeqIO
+from molecular_weight import molecular_weights
+from isoelectric_point import isoelectric_points
+from sklearn.cross_validation import train_test_split
+
+allowed_drugnames = ['FPV', 'ATV', 'IDV', 'LPV', 'NFV', 'SQV', 'TPV', 'DRV',
+                     '3TC', 'ABC', 'AZT', 'D4T', 'DDI', 'TDF', 'EFV', 'NVP',
+                     'ETR', 'RPV',
+                     ]
 
 
 def read_data(protein):
@@ -113,6 +121,7 @@ def drop_na_from_data(df, drug_name, feat_cols):
     # Defensive programming checks
     assert isinstance(df, pd.DataFrame)
     assert isinstance(drug_name, str)
+    assert drug_name in allowed_drugnames
     assert drug_name in df.columns, "{0} not in data.".format(drug_name)
 
     columns = list(feat_cols)
@@ -134,6 +143,7 @@ def get_cleaned_data(protein_name, drug_name):
                                                  feat_cols)
 
     data = drop_na_from_data(data, drug_name, feat_cols)
+    data[drug_name] = data[drug_name].apply(lambda x: np.log10(x))
 
     return data, feat_cols
 
