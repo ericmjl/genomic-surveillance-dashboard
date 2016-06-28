@@ -37,7 +37,7 @@ params['etr'] = {'max_features': np.arange(0.1, 1.0, 0.2),
                  'bootstrap': [False, True],
                  }
 params['gbr'] = {'n_estimators': np.arange(100, 701, 100),
-                 'max_depth': np.arange(3, 6, 1),
+                 # 'max_depth': np.arange(3, 6, 1),
                  'learning_rate': np.arange(0.02, 0.21, 0.04),
                  # 'subsample': np.arange(0.6, 1.01, 0.1)
                  }
