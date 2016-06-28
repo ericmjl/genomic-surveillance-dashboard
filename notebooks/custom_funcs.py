@@ -138,6 +138,18 @@ def get_cleaned_data(protein_name, drug_name):
     return data, feat_cols
 
 
+def to_numeric_rep(df, feat_cols, rep='mw'):
+    if rep == 'mw':
+        numeric_dict = molecular_weights
+    if rep == 'pKa':
+        numeric_dict = isoelectric_points
+    for col in feat_cols:
+        df[col] = df[col].replace(numeric_dict.keys(),
+                                  numeric_dict.values())
+
+    return df
+
+
 def test_data_integrity(data):
     """
     Data integrity tests! Make sure to use this to check that the data are
