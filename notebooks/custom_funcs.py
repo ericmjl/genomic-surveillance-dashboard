@@ -169,3 +169,13 @@ def test_data_integrity(data):
     assert '.' not in data
     assert 'X' not in data
     assert not data.dropna().isnull().values.any()
+
+
+def to_train_test_split(data, feat_cols, drug_name, test_size=0.1):
+    X = data[feat_cols]
+    Y = data[drug_name]
+
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y,
+                                                        test_size=test_size)
+
+    return X, Y, X_train, X_test, Y_train, Y_test
