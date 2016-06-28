@@ -4,7 +4,7 @@ Functions that transform a sequence into its numerical representation.
 from Bio import SeqIO
 from molecular_weight import molecular_weights
 from isoelectric_point import isoelectric_points
-from scipy.interpolate import PchipInterpolator
+from scipy.interpolate import interp1d
 
 import pandas as pd
 import numpy as np
@@ -54,7 +54,7 @@ def standardize_sequence(rep, protein='protease'):
     assert protein in reflengths.keys(), 'protein must be one of {0}'.format(
         reflengths.keys())
 
-    interpolator = PchipInterpolator(np.arange(rep.size), rep)
+    interpolator = interp1d(np.arange(rep.size), rep, fill_value="extrapolate")
     ref_size = reflengths[protein]
     interp_arr = interpolator(np.linspace(0, ref_size, ref_size))
     return interp_arr
