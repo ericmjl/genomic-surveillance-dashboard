@@ -147,10 +147,3 @@ def test_data_integrity(data):
     assert '.' not in data
     assert 'X' not in data
     assert not data.dropna().isnull().values.any()
-
-
-def replace_amino_acids_with_pkas(data, feat_cols):
-    """
-    
-    """
-    
