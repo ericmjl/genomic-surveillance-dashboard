@@ -1,0 +1,786 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"allowed_",
+				"allowed_drugnames"
+			],
+			[
+				"iso",
+				"isoelectric_points"
+			],
+			[
+				"new",
+				"new_sequence2"
+			],
+			[
+				"numeric",
+				"numeric_dict"
+			],
+			[
+				"mole",
+				"molecular_weights"
+			],
+			[
+				"drop",
+				"drop_na_from_data"
+			],
+			[
+				"data",
+				"data_protease"
+			],
+			[
+				"consens",
+				"consensus_map"
+			],
+			[
+				"graph_arr",
+				"graph_arr_fin"
+			],
+			[
+				"make_grad_bindo",
+				"make_grad_bindot_right"
+			],
+			[
+				"sum_csr",
+				"sum_csr_binary_dot_right"
+			],
+			[
+				"sum",
+				"sum_csr_binary_dot_left"
+			],
+			[
+				"faith_",
+				"faith_status"
+			],
+			[
+				"erorr",
+				"error_msg"
+			],
+			[
+				"error",
+				"error_msg"
+			],
+			[
+				"tr",
+				"tr	Tag"
+			],
+			[
+				"samp_graph",
+				"samp_graph_idxs"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"small",
+				"smallgroup_dir"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "word wrap",
+		"selected_items":
+		[
+			[
+				"word wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"markdown gfm",
+				"MarkdownEditing: Gather Missing Footnotes"
+			],
+			[
+				"markdown light",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"academic",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"pandoc ",
+				"Pandoc"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdown slide",
+				"Markdown Slideshow"
+			],
+			[
+				"markdown extended",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add curr",
+				"Git: Add Current File"
+			],
+			[
+				"markdown ex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"package remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"academicmark",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pandc",
+				"Pandoc"
+			],
+			[
+				"citebib",
+				"CiteBibTeX: Extract citations in current file"
+			],
+			[
+				"cite",
+				"CiteBibTeX: Extract citations in current file"
+			],
+			[
+				"pandocp",
+				"Pandoc: Render Markdown to PDF"
+			],
+			[
+				"package sync",
+				"PackageSync: Sync Online - Push Settings to Online Sync Folder"
+			],
+			[
+				"git add all",
+				"Git: Add All"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"pano",
+				"Pandoc"
+			],
+			[
+				"pando",
+				"Pandoc"
+			],
+			[
+				"markdown preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"acade",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"academ",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"ci",
+				"CiteBibTeX: Extract citations in current file"
+			],
+			[
+				"citebibtex",
+				"CiteBibTeX: Extract citations in current file"
+			],
+			[
+				"bibtex",
+				"Set Syntax: BibTeX"
+			],
+			[
+				"light",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"jinja",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"git remote",
+				"Git: Track Remote Branch"
+			],
+			[
+				"git add curren",
+				"Git: Add Current File"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word wa",
+				"Word Wrap: Toggle"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git add curre",
+				"Git: Add Current File"
+			],
+			[
+				"git add cur",
+				"Git: Add Current File"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git add current",
+				"Git: Add Current File"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"cython",
+				"Set Syntax: Cython"
+			],
+			[
+				"word wrp",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"jinja2",
+				"Set Syntax: Jinja2"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"jin",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"ython",
+				"Set Syntax: Python"
+			],
+			[
+				"pan do c",
+				"Pandoc"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Disable Package"
+			],
+			[
+				"syncsettings",
+				"Sync Settings: Download"
+			]
+		],
+		"width": 188.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"echo $anaconda",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/data",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/notebooks"
+	],
+	"file_history":
+	[
+		"/Users/ericmjl/Documents/github/writing/pandoc-templates/default.epub",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/notebooks/molecular_weight.py",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/data/hiv-rt-consensus.fasta",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/notebooks/model_select.py",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/notebooks/sequence_transformer.py",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/notebooks/custom_funcs.py",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/notebooks/test_custom_funcs.py",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/notebooks/test_sequence_transformer.py",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/model_select/model_select.py",
+		"/Users/ericmjl/Documents/github/writing/rowland-jr-fellows/rowland-jr-fellows.sublime-workspace",
+		"/Users/ericmjl/Documents/github/writing/rowland-jr-fellows/rowland-jr-fellows.sublime-project",
+		"/Users/ericmjl/Documents/github/writing/rowland-jr-fellows/01-research-statement.md",
+		"/Users/ericmjl/Documents/github/writing/genomic-surveillance-whitepaper/outline.md",
+		"/Users/ericmjl/Documents/github/writing/genomic-surveillance-whitepaper/genomic-surveillance-whitepaper.md",
+		"/Users/ericmjl/Documents/github/Circos/circos.py",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/custom/custom_funcs.py",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/User/AcademicMarkdown.sublime-settings",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/notebooks/test.sh",
+		"/Users/ericmjl/Documents/github/protein-convolutional-nets/notebooks/custom_funcs.py",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/hiv_data/hiv-protease-data.csv",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/hiv_data/hiv-rt-consensus.fasta",
+		"/Users/ericmjl/Documents/github/genomic-surveillance-dashboard/hiv_data/hiv-protease-consensus.fasta",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
+		"/Users/ericmjl/Documents/github/writing/rowland-jr-fellows/research-statement.tex",
+		"/Users/ericmjl/Documents/github/writing/rowland-jr-fellows/02-cv.md",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ericmjl/dotfiles/.bashrc",
+		"/Users/ericmjl/Dropbox (Personal)/Church/MITCEF/查经内容/20160617-yanlin-draft.md",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/User/CiteBibtex.sublime-settings",
+		"/Users/ericmjl/Documents/github/writing/genomic-surveillance-whitepaper/genomic-surveillance-whitepaper.bib",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/CiteBibtex/CiteBibtex.sublime-settings",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/PackageSync/PackageSync.sublime-settings",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/User/PackageSync.sublime-settings",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/Users/ericmjl/Desktop/mia-notes.md",
+		"/Users/ericmjl/Downloads/reset citekeys.app/Contents/Resources/Scripts/main.scpt",
+		"/private/var/folders/4d/5h2mymgs27q1sk0828h4wyh00000gn/T/com.soulmen.ulysses3/QuickExport/The Shaping of an Effective Leader- Chapter 1.md",
+		"/Users/ericmjl/Library/Application Support/Sublime Text 3/Packages/AcademicMarkdown/AcademicMarkdown.sublime-settings",
+		"/Users/ericmjl/Documents/github/Circos/setup.py",
+		"/Users/ericmjl/Documents/github/Circos/circos/__init__.py",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/datasets/moreno_seventh/meta.moreno_seventh_seventh",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/datasets/moreno_seventh/out.moreno_seventh_seventh",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/datasets/moreno_seventh/README.moreno_seventh",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/datasets/moreno_seventh/ent.moreno_seventh_seventh.student.gender",
+		"/Users/ericmjl/Downloads/ViralChallenge_training_SymptomScoresByDay.tsv",
+		"/Users/ericmjl/Downloads/ViralChallenge_training_CLINICAL.tsv",
+		"/Users/ericmjl/Documents/github/writing/genomic-surveillance-whitepaper/genomic-surveillance-reference.bib",
+		"/Users/ericmjl/Documents/github/websites/personal-site/assets/static/local-overrides.css",
+		"/Users/ericmjl/Documents/github/websites/personal-site/templates/layout.html",
+		"/Users/ericmjl/Documents/github/websites/personal-site/models/projects.ini",
+		"/Users/ericmjl/Documents/github/websites/personal-site/templates/blog.html",
+		"/Users/ericmjl/Documents/github/websites/personal-site/models/blog-post.ini",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/course.yml",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/outline.md",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/overview.md",
+		"/Users/ericmjl/Documents/github/tutorials/Network-Analysis-Made-Simple/index.yaml",
+		"/Users/ericmjl/Documents/github/websites/personal-site/content/cv/contents.lr",
+		"/private/var/folders/4d/5h2mymgs27q1sk0828h4wyh00000gn/T/com.soulmen.ulysses3/QuickExport/Rowland Junior Fellows Application/index.md",
+		"/private/var/folders/4d/5h2mymgs27q1sk0828h4wyh00000gn/T/com.soulmen.ulysses3/QuickExport/Rowland Junior Fellows Application.md",
+		"/private/var/folders/4d/5h2mymgs27q1sk0828h4wyh00000gn/T/com.soulmen.ulysses3/QuickExport/SGBS Sunday School - Re-Outline.md",
+		"/Users/ericmjl/Documents/github/protein-convolutional-nets/scripts/graph_array.py",
+		"/Users/ericmjl/Desktop/hello.py",
+		"/Users/ericmjl/Documents/github/protein-convolutional-nets/scripts/vectorized_learning.py",
+		"/Users/ericmjl/.ipython/profile_default/ipython_config.py",
+		"/Users/ericmjl/Documents/github/graph-fingerprint/graphfp/test_binary_matrix_utils.py",
+		"/Users/ericmjl/Documents/github/graph-fingerprint/graphfp/test_binary_dot.py",
+		"/Users/ericmjl/Documents/github/lab/protein-systematic-characterization/protocols/random-mutagenesis.md",
+		"/Users/ericmjl/Documents/github/websites/lab-website/templates/macros/position.html",
+		"/Users/ericmjl/Documents/github/websites/lab-website/templates/positions.html",
+		"/Users/ericmjl/Documents/github/websites/lab-website/templates/macros/pagination.html",
+		"/Users/ericmjl/Documents/github/websites/lab-website/models/position.ini",
+		"/Users/ericmjl/Documents/github/graph-fingerprint/graphfp/sparse_bindot.py",
+		"/Users/ericmjl/Documents/github/graph-fingerprint/graphfp/test_sparse_bindot.py",
+		"/Users/ericmjl/Documents/github/graph-fingerprint/graphfp/binary_dot.pyx",
+		"/Users/ericmjl/Documents/github/websites/lab-website/templates/position.html",
+		"/Users/ericmjl/Documents/github/websites/lab-website/models/positions.ini",
+		"/Users/ericmjl/Documents/github/websites/lab-website/templates/blog-post.html",
+		"/Users/ericmjl/Documents/github/websites/lab-website/templates/blog.html",
+		"/Users/ericmjl/Documents/github/websites/lab-website/models/projects.ini",
+		"/Users/ericmjl/Documents/github/websites/lab-website/models/blog.ini",
+		"/Users/ericmjl/.ssh/config",
+		"/Users/ericmjl/Documents/github/websites/lab-website/templates/layout.html",
+		"/Users/ericmjl/Documents/github/graph-fingerprint/graphfp/layers.py",
+		"/Users/ericmjl/Documents/github/websites/personal-site/content/blog/contents.lr",
+		"/Users/ericmjl/Documents/github/small-group/app.py",
+		"/Users/ericmjl/Documents/github/websites/student-bible-study/templates/layout.html",
+		"/Users/ericmjl/Documents/github/websites/student-bible-study/student-bible-study.lektorproject",
+		"/Users/ericmjl/Documents/github/websites/student-bible-study/content/contents.lr",
+		"/Users/ericmjl/Documents/github/websites/student-bible-study/assets/static/style.css",
+		"/Users/ericmjl/Documents/github/reassortment-simulator/simulation.py",
+		"/Users/ericmjl/Documents/github/protein-convolutional-nets/notebooks/binary_dot.pyx",
+		"/Users/ericmjl/Documents/github/protein-convolutional-nets/notebooks/test_binary_dot.py",
+		"/Users/ericmjl/Documents/github/protein-convolutional-nets/notebooks/binary_matrix_utils.py",
+		"/Users/ericmjl/Documents/github/lab-website/databags/nav.json",
+		"/Users/ericmjl/Documents/github/protein-convolutional-nets/notebooks/binary_dot.c",
+		"/Users/ericmjl/website/models/page.ini",
+		"/Users/ericmjl/website/models/projects.ini",
+		"/Users/ericmjl/website/content/research/contents.lr",
+		"/Users/ericmjl/website/models/research-project.ini",
+		"/Users/ericmjl/Documents/github/protein-convolutional-nets/notebooks/test_binary_matrix_utils.py",
+		"/Users/ericmjl/website/templates/projects.html",
+		"/Users/ericmjl/website/content/blog/chalk-talk/contents.lr",
+		"/Users/ericmjl/website/content/blog/contents.lr",
+		"/Users/ericmjl/website/models/blog.ini",
+		"/Users/ericmjl/website/templates/project.html",
+		"/Users/ericmjl/website/templates/blog.html",
+		"/Users/ericmjl/website/assets/static/css/bootstrap.css",
+		"/Users/ericmjl/website/databags/navigation.ini",
+		"/Users/ericmjl/website/databags/header-nav.ini",
+		"/Users/ericmjl/Documents/github/fingertools/attendees.py",
+		"/Users/ericmjl/Documents/github/autograd/autograd/util.py",
+		"/Users/ericmjl/website/templates/layout.html",
+		"/Users/ericmjl/website/templates/macros/pagination.html",
+		"/Users/ericmjl/website/content/cv/contents.lr",
+		"/Users/ericmjl/website/models/structured-text.ini",
+		"/Users/ericmjl/Documents/github/bokeh/scripts/dev-start.sh",
+		"/Users/ericmjl/website/assets/static/style.css",
+		"/Users/ericmjl/website/templates/blog-post.html",
+		"/Users/ericmjl/website/templates/page.html",
+		"/Users/ericmjl/website/templates/macros/blog.html",
+		"/Users/ericmjl/Documents/github/small-group/templates/master.html",
+		"/Users/ericmjl/website/test-new-personal-site/test-new-personal-site.lektorproject",
+		"/Users/ericmjl/Downloads/20160531_ericjma.wordpress.2016-06-01.xml/index.md",
+		"/Users/ericmjl/Downloads/20160531_ericjma.wordpress.2016-06-01.xml/posts/20160529-pycon-tutorials-days-1-2.md",
+		"/Users/ericmjl/Downloads/20160531_ericjma.wordpress.2016-06-01.xml/posts/20160531-dividing-people-into-small-groups-with-python.md"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",",
+			"PISPIE",
+			",",
+			"molecular_weights",
+			"data",
+			"PchipInterpolator",
+			":",
+			"molecular_weights",
+			"    ",
+			"()",
+			"proproG",
+			"row[1]['person2']",
+			"row[1]['person1']",
+			"protease_consensus",
+			"protein",
+			"handle",
+			"nnrt",
+			"prot",
+			"protease_feat_cols",
+			"data_protease",
+			"df_nrt",
+			"data_nrt",
+			"canonical_string",
+			"data",
+			"cannoical_string",
+			"nrt",
+			"nrt_",
+			"data",
+			"df",
+			"data",
+			"$",
+			"/Library/TeX/texbin/xetex",
+			"/Library/TeX/texbin/pdflatex",
+			"\n    ",
+			"\n",
+			"figure-",
+			"/Users/ericmjl",
+			"$github",
+			"$anaconda",
+			"\"--filter=/usr/local/bin/pandoc-citeproc\"",
+			"\"--bibliography=$github/writing/references-master/papers-library.bib\"",
+			"-   ",
+			"    -   ",
+			"lemey",
+			"correlates",
+			"Lemey",
+			"3",
+			"2.",
+			"5",
+			"_cat",
+			"nodes_nbrs_compressed",
+			"nodes_nbrs",
+			"_fin",
+			"filter_and_reindex_nodes_and_neighbors",
+			"graph_arr",
+			"graph_idxs_red",
+			"_red",
+			"self, wb, inputs, nodes_nbrs, graph_idxs",
+			"bindot_left",
+			"h4",
+			"h3",
+			"<b>",
+			"post.",
+			"Project",
+			"project",
+			"Project",
+			"project",
+			"Project",
+			"Projects",
+			"csr_binary_dot_right",
+			"csr_binary_dot_left",
+			"self, wb, inputs, nodes_rows, nodes_cols, graph_idxs",
+			"project",
+			"雅阁",
+			"argnum=1",
+			".",
+			"]",
+			".,",
+			",",
+			"matrix",
+			"grad_csr_binary",
+			"./",
+			"/papers/",
+			"li",
+			"i",
+			"#javascript:void(0)",
+			"h1",
+			"####",
+			"###",
+			"##",
+			"postsCarousel",
+			"div",
+			"blockquote",
+			"href",
+			"'],",
+			"', '",
+			"['/",
+			"B",
+			"b",
+			"B",
+			"b",
+			"B",
+			"b",
+			"B",
+			"intermed",
+			"##",
+			"</ol>",
+			"</li>",
+			"<li>",
+			"<ol>",
+			"###",
+			"##",
+			"</li>",
+			"<li>",
+			"<ol>",
+			"<h2>",
+			"</li>",
+			"</strong>",
+			"<strong>",
+			"<li>",
+			"</ol>",
+			"<ol>",
+			"</li>",
+			"<li>",
+			"</ol>\n",
+			"</ol>",
+			"<ol type=\"1\">",
+			"1. "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 148.0
+	},
+	"pinned_build_system": "",
+	"project": "genomic-surveillance-dashboard.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"genomic",
+				"genomic-surveillance-whitepaper.md"
+			],
+			[
+				"outline",
+				"outline.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+		"fss_on_distraction_free": false,
+		"fss_on_full_screen": false
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
