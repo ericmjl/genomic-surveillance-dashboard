@@ -20,7 +20,3 @@ molecular_weights = {
     'Y': 181.1894,
     'V': 117.1469
 }
-
-
-def get_molecular_weight(aa):
-    return molecular_weights[aa]
