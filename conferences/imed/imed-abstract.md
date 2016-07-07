@@ -1,10 +1,15 @@
 ---
-title: IMED Abstract
+title: A real-time surveillance dashboard for monitoring viral phenotype from sequence.
+author:
+- name: Eric J. Ma
+  affiliation: MIT
+- name: Jonathan A. Runstadler
+  affiliation: MIT
 ---
 
 # Purpose
 
-Genome sequencing has become routein in outbreak surveillance. Apart from its utility in tracking evolutionary trajectories, genome sequences also contain information necessary for predicting biochemical phenotypes of outbreak pathogens, such as drug resistance and antigenic distance from vaccine strains. Having the capability to predict and visualize a pathogen's phenotype from its genome, in real-tiem, and at a location near the source of the outbreak, would provide epidemiologists with additional useful data that could help tailor outbreak responses and appropriately mobilize limited resources.
+Genome sequencing has become routine in outbreak surveillance. Apart from its utility in tracking evolutionary trajectories, genome sequences also contain information necessary for predicting biochemical phenotypes of outbreak pathogens, such as drug resistance and antigenic distance from vaccine strains. Having the capability to predict and visualize a pathogen's phenotype from its genome, in real-tiem, and at a location near the source of the outbreak, would provide epidemiologists with additional useful data that could help tailor outbreak responses and appropriately mobilize limited resources.
 
 # Materials and Methods
 
@@ -16,4 +21,4 @@ We have developed a proof-of-concept dashboard, using sequence-phenotype data fr
 
 # Conclusion
 
-New data and integrated prediction systems are required to fully realize the utility of genomic sequencing data by connecting genotype to phenotype. We have designed this dashboard, and implemented a proof-of-concept, as part of our efforts to realize this vision.
+New "gold-standard" genotype-phenotype data and integrated prediction systems are required to fully realize the utility of genomic sequencing data by connecting genotype to phenotype. We have designed this dashboard, and implemented a proof-of-concept, as part of our efforts to realize this vision.
