@@ -27,7 +27,3 @@ isoelectric_points = {
     'B': 6.87,  # the average of D and N
     'Z': 4.35,  # the average of E and Q
 }
-
-
-def get_isoelectric_point(aa):
-    return isoelectric_points[aa]
