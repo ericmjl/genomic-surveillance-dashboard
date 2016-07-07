@@ -25,7 +25,7 @@ def to_numeric_rep(sequence, rep='mw'):
     """
     assert isinstance(sequence, str), 'sequence must be a string.'
     assert 'X' not in sequence, 'X not allowed.'
-    allowed_rep = ['mw', 'pka']
+    allowed_rep = ['mw', 'pKa']
     assert rep in allowed_rep, 'rep must be one of {0}'.format(allowed_rep)
 
     if rep == 'mw':
