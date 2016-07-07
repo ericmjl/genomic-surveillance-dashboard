@@ -9,6 +9,9 @@ new_sequence2 = 'PQITLWQRPLVTIKIGGQLKEALLKTGADDTVLEEMNLPGRWKPKMIRGIGGFIKMRQYD'\
 arr1 = to_numeric_rep(new_sequence1)
 arr2 = to_numeric_rep(new_sequence2)
 
+arr1_pka = to_numeric_rep(new_sequence1, 'pKa')
+arr2_pKa = to_numeric_rep(new_sequence2, 'pKa')
+
 std1 = standardize_sequence(arr1, 'protease')
 std2 = standardize_sequence(arr2, 'protease')
 
