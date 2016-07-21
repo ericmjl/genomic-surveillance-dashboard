@@ -1,4 +1,4 @@
-from sequence_transformer import to_numeric_rep, standardize_sequence
+from gsdash.sequence_transformer import to_numeric_rep, standardize_sequence
 
 new_sequence1 = 'PQITLNQRTLVTIPIGGDLKEALLKTGADDTVLEEMNLPGRMKPKMIGGIGGFIKVRQYD'\
     'QILIEICGRKAIGTVLVGPTPVNIIGRNLLTQVGCTLNFP'

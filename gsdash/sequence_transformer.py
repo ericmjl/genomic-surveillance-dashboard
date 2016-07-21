@@ -2,8 +2,8 @@
 Functions that transform a sequence into its numerical representation.
 """
 from Bio import SeqIO
-from molecular_weight import molecular_weights
-from isoelectric_point import isoelectric_points
+from .molecular_weight import molecular_weights
+from .isoelectric_point import isoelectric_points
 from scipy.interpolate import interp1d
 
 import pandas as pd
