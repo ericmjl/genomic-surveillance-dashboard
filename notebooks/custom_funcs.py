@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 from Bio import SeqIO
-from molecular_weight import molecular_weights
-from isoelectric_point import isoelectric_points
+from gsdash.molecular_weight import molecular_weights
+from gsdash.isoelectric_point import isoelectric_points
 from sklearn.cross_validation import train_test_split
 
 allowed_drugnames = ['FPV', 'ATV', 'IDV', 'LPV', 'NFV', 'SQV', 'TPV', 'DRV',
