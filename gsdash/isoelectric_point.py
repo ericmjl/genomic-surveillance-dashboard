@@ -24,6 +24,6 @@ isoelectric_points = {
     'W': 5.88,
     'Y': 5.63,
     'V': 6.02,
-    'B': 6.87,  # the average of D and N
-    'Z': 4.35,  # the average of E and Q
+    'B': (10.76 + 2.98) / 2,  # the average of D and N
+    'Z': (3.08 + 5.65) / 2,  # the average of E and Q
 }
