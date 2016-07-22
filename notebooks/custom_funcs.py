@@ -35,10 +35,10 @@ def read_data(protein, sparse=True):
     assert protein in drug_col_vals.keys()
 
     if sparse:
-        path = '../data/hiv-{0}-data-sparse.csv'.format(protein)
+        path = 'data/hiv-{0}-data-sparse.csv'.format(protein)
         sep = '\t'
     else:
-        path = '../data/hiv-{0}-data.csv'.format(protein)
+        path = 'data/hiv-{0}-data.csv'.format(protein)
         sep = ','
 
     data = pd.read_csv(path, index_col='SeqID', sep=sep)
@@ -135,9 +135,9 @@ def read_consensus(drug_class):
         "drug_class must be in {0}".format(drug_col_vals.keys())
 
     if drug_class == 'protease':
-        handle = '../data/hiv-protease-consensus.fasta'
+        handle = 'data/hiv-protease-consensus.fasta'
     elif drug_class in ['nnrt', 'nrt']:
-        handle = '../data/hiv-rt-consensus.fasta'
+        handle = 'data/hiv-rt-consensus.fasta'
     consensus = SeqIO.read(handle, 'fasta')
     consensus_map = {i: letter for i, letter in enumerate(str(consensus.seq))}
 
@@ -182,7 +182,7 @@ def sparse_to_dense_data(drug_class):
     A function that converts the sparsely-represented data to a dense form.
     """
     data, drug_cols, feat_cols = get_protein_drug_data(drug_class, sparse=True)
-    data.to_csv('../data/hiv-{0}-data.csv'.format(drug_class))
+    data.to_csv('data/hiv-{0}-data.csv'.format(drug_class))
 
 
 def get_cleaned_data(drug_class, drug_name):
