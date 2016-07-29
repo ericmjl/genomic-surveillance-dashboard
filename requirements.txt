@@ -1,6 +1,9 @@
-scikit-learn
-bokeh
-numpy
-pandas
-biopython
-pytest
+Flask == 0.11.1
+numpy == 1.11.1
+pandas == 0.18.1
+pip == 8.1.2
+pytest == 2.9.2
+bokeh == 0.12.1
+scipy == 0.18.0
+setuptools == 25.1.1
+scikit_learn == 0.17.1
