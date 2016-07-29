@@ -12,6 +12,7 @@ from sklearn.externals import joblib
 from bokeh.charts import Bar
 from bokeh.resources import INLINE
 from bokeh.embed import components
+from bokeh.models import HoverTool, ResetTool
 drugs = ['FPV', 'ATV', 'IDV', 'LPV', 'NFV', 'SQV', 'TPV', 'DRV',]
 
 predictor = Flask(__name__)
@@ -27,6 +28,7 @@ def home():
 def predict():
     input_sequence = request.form['sequence']
     seq = standardize_sequence(to_numeric_rep(input_sequence, 'mw'), 'protease')
+    seq = seq.reshape(1, -1)
 
     preds = dict()
     preds['drug'] = list()
@@ -41,8 +43,19 @@ def predict():
         preds['log10(DR)'].append(pred)
         print(pred)
 
+    hover = HoverTool()
+    hover.tooltips = [
+        # ("(x, y)", "($x, $y)"),
+        ("Drug", "@drug"),
+        ("Resistance", "@height")
+    ]
+    TOOLS = [hover, ResetTool()]
+
     bar = Bar(data=preds, values='log10(DR)', label='drug', title="protease drug resistance",
-              plot_width=600, plot_height=400, legend=False)
+              plot_width=600, plot_height=400, legend=False, tools=TOOLS)
+    # for r in bar.renderers:
+        # print(r.data_source.data)
+    # print(bar.renderers)
     js_resources = INLINE.render_js()
     css_resources = INLINE.render_css()
     script, div = components(bar, INLINE)
