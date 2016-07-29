@@ -1,0 +1,16 @@
+name: gsdash
+channels:
+- ericmjl
+- defaults
+- conda-forge
+dependencies:
+- biopython
+- bokeh
+- flask
+- numpy
+- pip
+- python=3.5.2=0
+- scikit-learn
+- scipy
+- setuptools
+prefix: /Users/ericmjl/anaconda/envs/gsdash
