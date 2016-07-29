@@ -1,1 +1,1 @@
-../notebooks/molecular_weight.py
+../gsdash/molecular_weight.py

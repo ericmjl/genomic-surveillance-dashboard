@@ -1,1 +1,1 @@
-../notebooks/isoelectric_point.py
+../gsdash/isoelectric_point.py
