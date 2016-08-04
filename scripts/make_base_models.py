@@ -13,6 +13,7 @@ drugs = ['FPV', 'ATV', 'IDV', 'LPV', 'NFV', 'SQV', 'TPV', 'DRV',]
 protein = 'protease'
 
 for drug in drugs:
+    print(drug)
     data, feat_cols = cf.get_cleaned_data(protein, drug)
 
     # Just checking:
@@ -24,7 +25,9 @@ for drug in drugs:
     # Finally, split the data into a training set, and test set.
     X, Y, X_train, X_test, Y_train, Y_test = cf.to_train_test_split(data_numeric, feat_cols, drug, test_size=0.3)
 
-    mdl = RandomForestRegressor(n_estimators=100)
+    print('training on {0}'.format(drug))
+    mdl = RandomForestRegressor(n_estimators=2000, n_jobs=-1)
     mdl.fit(X, Y)
 
+    print('writing model to disk...')
     joblib.dump(mdl, '../models/base/{drug}/{drug}.pkl'.format(drug=drug))
