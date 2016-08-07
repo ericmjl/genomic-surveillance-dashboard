@@ -9,4 +9,12 @@
   {{ plot_script|indent(4)|safe }}
   {{ plot_div|indent(4)|safe }}
 
+How to interpret these charts:
+
+<ol>
+  <li>Box-and-whisker plots show the range of predictions made by individual regressors in the trained ensemble regressor.</li>
+  <li>The Inter-Quartile Range (IQR) (25th to 75th percentile) for the predictions is shown in the boxes.</li>
+  <li>Outlier predictions are shown using red dots.</li>
+</ol>
+
 {% endblock %}
