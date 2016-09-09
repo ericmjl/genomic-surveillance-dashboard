@@ -4,6 +4,7 @@ from Bio import SeqIO
 from gsdash.molecular_weight import molecular_weights
 from gsdash.isoelectric_point import isoelectric_points
 from sklearn.cross_validation import train_test_split
+from sklearn.preprocessing import MinMaxScaler
 
 allowed_drugnames = ['FPV', 'ATV', 'IDV', 'LPV', 'NFV', 'SQV', 'TPV', 'DRV',
                      '3TC', 'ABC', 'AZT', 'D4T', 'DDI', 'TDF', 'EFV', 'NVP',
@@ -230,9 +231,21 @@ def test_data_integrity(data):
 
 def to_train_test_split(data, feat_cols, drug_name, test_size=0.1):
     X = data[feat_cols]
-    Y = data[drug_name]
+    # scaler = MinMaxScaler().fit(X)
+    # X = scaler.transform(X)
+    Y = data[drug_name].values
+    # Y = scale(Y)
 
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y,
                                                         test_size=test_size)
 
     return X, Y, X_train, X_test, Y_train, Y_test
+
+
+def pd2np(data):
+    """
+    A function that converts pandas dataframes to numpy arrays.
+    """
+    if isinstance(data, pd.DataFrame) or isinstance(data, pd.Series):
+        data = data.values
+    return data
