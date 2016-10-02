@@ -5,5 +5,5 @@ pip == 8.1.2
 pytest==3.0.3
 bokeh==0.12.2
 scipy == 0.18.0
-setuptools==28.0.0
+setuptools==28.2.0
 scikit_learn == 0.17.1
