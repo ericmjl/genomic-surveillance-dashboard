@@ -1,6 +1,6 @@
 Flask
 numpy
-pandas
+pandas==0.19.0
 pip
 pytest
 bokeh
