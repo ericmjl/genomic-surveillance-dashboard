@@ -1,7 +1,7 @@
 Flask
 numpy
 pandas
-pip
+pip==9.0.1
 pytest
 bokeh
 scipy
