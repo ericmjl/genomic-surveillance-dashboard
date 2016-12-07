@@ -3,7 +3,7 @@ numpy
 pandas
 pip
 pytest
-bokeh
+bokeh==0.12.3
 scipy
 setuptools
 scikit_learn
