@@ -5,5 +5,5 @@ pip
 pytest
 bokeh
 scipy
-setuptools
+setuptools==31.0.1
 scikit_learn
