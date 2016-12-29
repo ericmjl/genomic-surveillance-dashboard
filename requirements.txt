@@ -4,6 +4,6 @@ pandas==0.19.2
 pip
 pytest
 bokeh
-scipy
+scipy==0.18.1
 setuptools
 scikit_learn
