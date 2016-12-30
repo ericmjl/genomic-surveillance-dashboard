@@ -2,7 +2,7 @@ Flask
 numpy
 pandas==0.19.2
 pip
-pytest
+pytest==3.0.5
 bokeh
 scipy
 setuptools==32.3.1
