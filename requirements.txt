@@ -1,4 +1,4 @@
-Flask
+Flask==0.12
 numpy
 pandas==0.19.2
 pip
